@@ -35,10 +35,10 @@ public final class JsonObject {
 
                 if (objectValue.length == 2)
                     this.jsonObjects.put(objectValue[0]
-                                    .replace("\"", "")
+                                    .replace("'", "")
                                     .replace("\"", "").trim(),
                             objectValue[1]
-                                    .replace("\"", "")
+                                    .replace("'", "")
                                     .replace("\"", "").trim());
             }
         }
